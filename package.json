@@ -10,7 +10,9 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc -b"
+  },
   "keywords": [
     "chatbot",
     "koishi",
@@ -18,5 +20,8 @@
   ],
   "peerDependencies": {
     "koishi": "^4.3.2"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10"
   }
 }
