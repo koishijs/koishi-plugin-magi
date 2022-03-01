@@ -1,15 +1,23 @@
 {
   "name": "koishi-plugin-magi",
-  "description": "Use [Magi](https://magi.com/) in Koishi",
-  "private": true,
-  "version": "1.0.0",
+  "description": "Use [Magi](https://magi.com) in Koishi",
+  "version": "2.0.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
     "lib",
     "dist"
   ],
+  "author": "Shigma <shigma10826@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koishijs/koishi-plugin-magi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koishijs/koishi-plugin-magi/issues"
+  },
+  "homepage": "https://github.com/koishijs/koishi-plugin-magi",
   "scripts": {
     "build": "tsc -b"
   },
